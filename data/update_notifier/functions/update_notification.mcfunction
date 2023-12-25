@@ -1,5 +1,5 @@
 #> update_notifier:update_notification
-# @within function update_notifier:player_joined
+# @within function update_notifier:tick
 
 scoreboard players enable @s MuteUpdateNotification
 tellraw @s {"text":"[!] XXX の最新バージョンがリリースされました。","color":"yellow"}
